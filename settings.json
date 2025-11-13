@@ -1,0 +1,36 @@
+{
+    "breadcrumbs.enabled": false,
+    "custom-ui-style.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 16,
+            "y": 12
+        }
+    },
+    "custom-ui-style.stylesheet": {
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title": "padding-left: 70px",
+        ".editor-actions": "display: none !important",
+        ".title-actions": "display: none !important",
+    },
+    "editor.lineHeight": 1.8,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "explorer.compactFolders": false,
+    "explorer.decorations.badges": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "native",
+    "workbench.activityBar.location": "hidden",
+    "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
+    // "workbench.editor.showTabs": "single",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false, 
+    "workbench.tree.enableStickyScroll": false
+}
