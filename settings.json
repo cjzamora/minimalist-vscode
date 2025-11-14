@@ -1,12 +1,5 @@
 {
     "breadcrumbs.enabled": false,
-    "custom-ui-style.electron": {
-        "titleBarStyle": "hiddenInset",
-        "trafficLightPosition": {
-            "x": 16,
-            "y": 16
-        }
-    },
     "custom-ui-style.stylesheet": {
         ".editor-actions": "display: none !important;",
         ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px;",
@@ -16,14 +9,16 @@
         ".monaco-editor .minimap-slider": "display: none !important;",
         ".monaco-editor .minimap-decorations-layer": "display: none !important;",
         ".monaco-scrollable-element > .scrolbar": "right: 0 !important;",
-        ".monaco-scrollable-element > .shadow.top": "display: none",
+        ".monaco-scrollable-element > .shadow.top": "display: none;",
         ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none;",
         ".monaco-workbench .part.editor > .content .editor-group-container > .title": "margin-left: 70px !important;",
-        ".notification-toast": "box-shadow: none !importan;",
+        ".notification-toast": "box-shadow: none !important;",
         ".quick-input-widget.show-file-icons": "box-shadow: none !important;",
         ".quick-input-list .scrollbar": "display: none;",
         ".sidebar .title-label": "padding: 0 !important;",
-        ".title-actions": "display: none !important;"
+        ".title-actions": "display: none !important;",
+        ".titlebar-container .titlebar-left": "display: none !important;",
+        ".titlebar-container .titlebar-center": "display: none !important;"
     },
     "editor.glyphMargin": true,
     "editor.fontSize": 12,
@@ -43,8 +38,6 @@
     "gitlens.ai.model": "vscode",
     "gitlens.ai.vscode.model": "copilot:gpt-4.1",
     "material-icon-theme.hidesExplorerArrows": true,
-    "window.customTitleBarVisibility": "never",
-    "window.titleBarStyle": "native",
     "window.zoomLevel": 1.5,
     "workbench.activityBar.location": "hidden",
     "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
