@@ -5,7 +5,6 @@ A clean, distraction-free, minimalist configuration for Visual Studio Code — f
 ## Features
 
 - Stripped-down UI to reduce clutter  
-- Optimized settings for coding (e.g., formatting, rulers, auto imports)  
 - Minimal performance overhead  
 - Portable config you can reuse across machines  
 
