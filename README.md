@@ -19,7 +19,12 @@ This repository includes:
 
 - **Focus** — Less visual noise means more concentration  
 - **Consistency** — Use the same dev environment across projects or devices  
-- **Portability** — Lightweight config; easy to version control  
+- **Portability** — Lightweight config; easy to version control
+
+## Requirements
+### **Required Extension**
+- **Custom UI Style**  
+  [https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-ui](https://marketplace.visualstudio.com/items?itemName=subframe7536.custom-ui-style)  
 
 ## Setup Instructions
 
